@@ -1,0 +1,15 @@
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/bin/Debug/net7.0/BattleCardGame
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/bin/Debug/net7.0/BattleCardGame.deps.json
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/bin/Debug/net7.0/BattleCardGame.runtimeconfig.json
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/bin/Debug/net7.0/BattleCardGame.dll
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/bin/Debug/net7.0/BattleCardGame.pdb
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.csproj.AssemblyReference.cache
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.AssemblyInfoInputs.cache
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.AssemblyInfo.cs
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.csproj.CoreCompileInputs.cache
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.dll
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/refint/BattleCardGame.dll
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.pdb
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/BattleCardGame.genruntimeconfig.cache
+/Users/sgall/Projects/BattleCardGame/BattleCardGame/obj/Debug/net7.0/ref/BattleCardGame.dll

@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{8036BC21-FEE8-4529-B6F5-FE8F986876BB}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BattleCardGame PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
