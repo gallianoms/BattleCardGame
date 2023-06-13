@@ -1,13 +1,18 @@
-﻿class Program
+﻿
+class Program
 {
     static void Main(string[] args)
     {
         Deck deck = new();
 
-        foreach (Card card in deck.Cards)
-        {
-            Console.WriteLine(card);
-        }
+        deck.Shuffle();
+
+        deck.Print();
+
+        System.Console.WriteLine("==============");
+        System.Console.WriteLine(deck.DrawCardFromPosition(51));
+        System.Console.WriteLine("==============");
+        deck.Print();
 
         Console.ReadKey();
     }
@@ -25,7 +30,14 @@
 
         public override string ToString()
         {
-            return number + " of " + suit;
+            return suit switch
+            {
+                'h' => number + " of Hearts",
+                's' => number + " of Spades",
+                'd' => number + " of Diamonds",
+                'c' => number + " of Clovers",
+                _ => number + " of " + suit,
+            };
         }
 
         public char Suit { get => suit; set => suit = value; }
@@ -50,6 +62,49 @@
                     Card card = new(suit, number);
                     cards.Add(card);
                 }
+            }
+        }
+
+        public void Shuffle()
+        {
+            Random random = new();
+            for (int i = cards.Count - 1; i > 0; i--)
+            {
+                int j = random.Next(i + 1);
+                (cards[j], cards[i]) = (cards[i], cards[j]);
+            }
+        }
+
+        public Card Draw()
+        {
+            Card card = cards[0];
+            cards.RemoveAt(0);
+            return card;
+        }
+
+        public Card DrawCardFromPosition(int position)
+        {
+            if (position < 0 || position >= cards.Count)
+                throw new IndexOutOfRangeException();
+            else
+            {
+                Card card = cards[position];
+                cards.RemoveAt(position);
+                return card;
+            }
+        }
+
+        public Card DrawRandomCard()
+        {
+            Random random = new();
+            return cards[random.Next(cards.Count)];
+        }
+
+        public void Print()
+        {
+            foreach (Card card in cards)
+            {
+                Console.WriteLine(card);
             }
         }
 
